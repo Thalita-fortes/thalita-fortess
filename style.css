@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppis", sans-serif;
+}
+body{
+    background: linear-gradient(45deg, #dd0eb0, rgb(8, 8, 8));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main.recipiente {
+    background: white;
+    max-width: 350px;
+    min-height: 10vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+main h2 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+}
+main h2::before{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 165px;
+    bottom: 0px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #dd0eb0, rgb(8, 8, 8));
+}
+
+p {
+    position: relative;
+    line-height: 1.5;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+h3 {
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 7px;
+    color: rgba(0, 0, 0, 0.7);
+    
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.footer span{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.footer .social-field {
+    padding: 0.4rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.footer .social-field a i {
+    margin: 0 0.5rem;
+    width: 15px;
+}
+
+.footer .social-field a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .social-field.linkedin {
+    background: linear-gradient(45deg, #dd0eb0, rgb(8, 8, 8));
+}
+.footer .social-field.github {
+    background: linear-gradient(45deg, #dd0eb0, rgb(8, 8, 8));
+}
+
+
